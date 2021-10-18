@@ -1,0 +1,36 @@
+{
+  "private": true,
+  "name": "frontend-challenge",
+  "version": "1.1.0",
+  "description": "Qogita's Front-End Technical Challenge.",
+  "main": "src/index.tsx",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "prestart": "npm run build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qogita/frontend-challenge.git"
+  },
+  "author": "Qogita",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/qogita/frontend-challenge/issues"
+  },
+  "homepage": "https://github.com/qogita/frontend-challenge#readme",
+  "dependencies": {
+    "next": "^11.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "zustand": "^3.5.13"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.15",
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7",
+    "typescript": "^4.3.5"
+  }
+}
